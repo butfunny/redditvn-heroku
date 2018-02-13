@@ -1,6 +1,9 @@
 {
   "name": "redditvn-react-heroku",
-  "version": "1",
+  "version": "1.0.0",
+  "main": "dev-server.js",
+  "description": "test",
+  "author": "Cuong Nguyen",
   "dependencies": {
     "express": "^4.16.2"
   },
