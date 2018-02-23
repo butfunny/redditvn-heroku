@@ -4,13 +4,29 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <link rel="manifest" href="assets/img/manifest.json">
+    <meta name="theme-color" content="#fff">
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
-    <link href="/assets/css/style.css?v=1" rel="stylesheet" type="text/css"/>
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <!-- Android Chrome Lolipop+ -->
+    <meta name="theme-color" content="#fff">
+    <link rel="shortcut icon" sizes="192x192" href="/assets/img/rvn-logo.png">
+    <link rel="shortcut icon" sizes="128x128" href="/assets/img/rvn-logo.png">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <link rel="apple-touch-icon" sizes="192x192" href="/assets/img/rvn-logo.png">
+    <meta name="apple-mobile-web-app-title" content="Reddit Viet Nam">
+    <link rel="apple-touch-startup-image" href="/assets/img/rvn-logo.png">
+
+
+    <link rel="manifest" href="/manifest.json">
 
 
     <title>Reddit Việt Nam</title>
@@ -42,6 +58,26 @@
         crossorigin="anonymous"></script>
 <script src="/assets/js/client-loader.js"></script>
 
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId            : '1762829810685851',
+            autoLogAppEvents : true,
+            xfbml            : true,
+            version          : 'v2.12'
+        });
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 
 
 </body>
