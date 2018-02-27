@@ -4,23 +4,23 @@
   "lang": "vi-VN",
   "icons": [
     {
-      "src": "/assets/img/rvn-logo.png",
+      "src": "/assets/img/rvn-logo-192.png",
       "type": "image/png",
       "sizes": "192x192",
       "density": 4.0
     },
     {
-      "src": "/assets/img/rvn-logo.png",
+      "src": "/assets/img/rvn-logo-128.png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "/assets/img/rvn-logo.png",
+      "src": "/assets/img/rvn-logo-152.png",
       "type": "image/png",
       "sizes": "152x152"
     },
     {
-      "src": "/assets/img/rvn-logo.png",
+      "src": "/assets/img/rvn-logo-144.png",
       "type": "image/png",
       "sizes": "144x144"
     }
